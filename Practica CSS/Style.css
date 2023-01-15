@@ -1,0 +1,29 @@
+body{
+	width: 60em;
+	padding-left: 8em;
+	padding-bottom: 5em;
+	padding-right: 5em;
+}
+h1 {
+  text-align: center;
+}
+.Datos{
+	float: left;
+	text-align: center;
+	width: 16em;
+}
+.Contenido{
+	float: right;
+	text-align: left;
+	width: 44em;
+}
+ul.Columnas {
+	column-count: 3;
+	height: 20em;
+	width: 100%;
+	list-style-type: none;
+}
+.Primera li{
+	overflow: auto;
+}
+
